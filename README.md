@@ -36,9 +36,9 @@ Este projeto implementa um sistema de matrículas para uma escola, usando o Spri
   
 ## Endpoints
 
-POST /alunos: Adiciona um novo aluno.
-POST /cursos: Adiciona um novo curso.
-POST /alunos/{id}/cursos/{cursoId}: Matricula um aluno em um curso.
-DELETE /alunos/{id}/cursos/{cursoId}: Remove um aluno de um curso.
-GET /alunos/{id}/cursos: Lista todos os cursos de um aluno.
-GET /cursos/{id}/alunos: Lista todos os alunos de um curso.
+- POST /alunos: Adiciona um novo aluno.
+- POST /cursos: Adiciona um novo curso.
+- POST /alunos/{id}/cursos/{cursoId}: Matricula um aluno em um curso.
+- DELETE /alunos/{id}/cursos/{cursoId}: Remove um aluno de um curso.
+- GET /alunos/{id}/cursos: Lista todos os cursos de um aluno.
+- GET /cursos/{id}/alunos: Lista todos os alunos de um curso.
